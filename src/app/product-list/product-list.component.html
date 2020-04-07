@@ -18,7 +18,8 @@
 
 <!-- Use component's selector and pass the current product as input to he component using property binding -->
 <app-product-alerts
-  [product]="product">
+  [product]="product"
+  (notify)="onNotify()">
 </app-product-alerts>
 
 
