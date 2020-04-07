@@ -16,6 +16,10 @@ export class ProductDetailsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.route.paramMap.subscribe(params => {
+      // Use + to convert string into int
+      this.product = products[+params.get('productId')];
+    });
   }
 
 }
