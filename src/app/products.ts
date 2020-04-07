@@ -1,3 +1,4 @@
+// Array of objects
 export const products = [
   {
     name: 'Phone XL',
