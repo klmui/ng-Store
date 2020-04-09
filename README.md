@@ -12,6 +12,8 @@
 
 - Event binding ( )  for binding methods
 
+- Two way binding example: "<input [(ngModel)]="username"> <p>Hello {{username}}!</p>"
+
 ## Useful commands
 
 - ng new [name of new app]
