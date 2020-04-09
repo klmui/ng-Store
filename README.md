@@ -19,3 +19,5 @@
 - ng build
 
 - ng generate component [name of new component]
+
+- ng generate service [name of new service] (shares data) 
